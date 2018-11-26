@@ -1,2 +1,0 @@
-# Primeros pasos en Python
-
