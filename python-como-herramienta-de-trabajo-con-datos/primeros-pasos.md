@@ -17,7 +17,7 @@ El nombre del lenguaje proviene de la afición de su creador original, Guido van
 ## 2. Instalación
 ## 3. Características 
 Python es un lenguaje de programación multiparadigma. Esto significa que más que forzar a los programadores a adoptar un estilo particular de programación, permite varios estilos: programación orientada a objetos, programación imperativa y programación funcional.
-Alguna de las más destacadas es el empleo del indentado (tabulaciones) para definir bloques de código en condicionales y bucles, y el uso avanzado que hace vectores, listas, y textos.
+Alguna de las más destacadas es el empleo del indentado (tabulaciones) para definir bloques de código en condicionales y bucles, y el uso avanzado que hace de vectores, listas, y textos.
 
 ## 4. Usos 
 ## 5. Diferencias en relacion a otros lenguajes
