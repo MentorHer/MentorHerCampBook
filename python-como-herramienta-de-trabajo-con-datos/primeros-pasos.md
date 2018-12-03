@@ -8,6 +8,7 @@ A continuacion te presentamos Python como lenguaje de programacion. En este apar
 - Entender y ejecutar código
 
 ## 1. Que es python
+
 Python es un lenguaje de programación interpretado cuya filosofía prioriza la escritura de código legible.
 La principal diferencia entre un lenguaje compilado y uno interpretado es que el lenguaje compilado requiere un paso adicional antes de ser ejecutado, la compilación, que convierte el código que escribes a lenguaje de máquina. Un lenguaje interpretado, por otro lado, es convertido a lenguaje de máquina a medida que es ejecutado.
 Ejemplos de lenguajes compilados incluyen C, C++, Java, Go y Rust, entre muchos otros. Ejemplos de lenguajes interpretados incluyen Ruby, Python y JavaScript, entre muchos otros. A todos estos lenguajes se les conoce como lenguajes de alto nivel.
