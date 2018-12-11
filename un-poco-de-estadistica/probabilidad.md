@@ -1,1 +1,5 @@
 # PROBABILIDAD
+1.
+
+2.
+3.
