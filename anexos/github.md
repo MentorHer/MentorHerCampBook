@@ -1,8 +1,8 @@
 # Primeros pasos con [Github](https://github.com)
 
-En esta lección aprenderas como usar github pero primero te explicare que es git.
+En esta lección aprenderás como usar github pero primero te explicaré que es git.
 
-En el desarrollo web o cualquier tipo de desarrollo en general, uno de los probemas que tenemos en comun es el control del desarrollo que estamos realizando.
+En el desarrollo Web o cualquier tipo de desarrollo en general, uno de los problemas que tenemos en común es el control del desarrollo que estamos realizando.
  
 Muchos de nosotros seguramente tuvimos varios directorios que se llamaban por ejemplo: **Proyecto final**, **Proyecto final de verdad**, etc.
 
@@ -10,11 +10,11 @@ Esto con el fin de tener un **historial** de los cambios que hemos realizado a n
 
 Incluso algunas veces seguro hemos querido llorar por un archivo que se nos **pierde** y era muy **importante** para el desarrollo.
 
-Estos problemas se  resuelven al usar un **controlador de versiones** y es en eso que **GIT** nos ayuda a simpligicarnos la vida.
+Estos problemas se  resuelven al usar un **controlador de versiones** y es en eso que **GIT** nos ayuda a simplificarnos la vida.
 
 Lo primero que tenemos que hacer es instalar git en nuestro ordenador.
 
-Iniciamos ejecutando el sigiente comando en consola para saber si ya tenemos instalado git:
+Iniciamos ejecutando el siguiente comando en consola para saber si ya tenemos instalado git:
 
 ``` git --version ```
 
@@ -24,9 +24,9 @@ Si lo tendrían instalado les saldría un mensaje como el siguiente:
 
 [git]: http://i65.tinypic.com/34j2npc.png
 
-Si es el caso que no tendrían instalado vamos a ir a la web de git para instalarlo según el **sistema operativo** de nuestro ordenador.
+Si es el caso que no tendrían instalado vamos a ir a la Web de git para instalarlo según el **sistema operativo** de nuestro ordenador.
 
-[Click aqui para ir a GIT](https://git-scm.com)
+[Click aquí para ir a GIT](https://git-scm.com)
 
 Tendría que mostrarles la siguiente página:
 
@@ -58,7 +58,7 @@ Nos mostrará la siguiente página:
 
 [Install]: http://i64.tinypic.com/2i1l3yt.png
 
-Como puedes ver en esta página nos explica como poder instalar git según el **Sistepa Operativo** que tengamos.
+Como puedes ver en esta página nos explica como poder instalar git según el **Sistema Operativo** que tengamos.
 
 Para los usuarios que usen **Linux** tanto en distribución basadas en red hat como es **fedora**:
 
@@ -84,9 +84,9 @@ Luego de tener instalado Homebrew solo ejecutamos el siguiente comando:
 
 y listo ya tenemos **git** en nuestra **mac**
 
-Y por último para usuarios de windows solo descargan el instalador y ejecutenlo para tenerlo instalado.
+Y por último para usuarios de Windows solo descargan el instalador y ejecútenlo para tenerlo instalado.
 
-[Descargar git para windows](https://git-scm.com/download/win)
+[Descargar git para Windows](https://git-scm.com/download/win)
 
 Cuando terminemos de instalar simplemente nos vamos a la consola y vamos a correr el siguiente comando:
 
@@ -102,16 +102,16 @@ Y el primer comando que vamos a ver es el siguiente a pesar que en esa lista no 
 
 ``` git config ```
 
-Este parametro nos permite establecer los datos de configuracion que vamos a utilizar para nuestros proyectos. Y lo primero que tenemos q hacer es indicarle a git cual es nuestro nombre y nuestro correo electronico, esto lo hacemos con el siguiente comando:
+Este parámetro nos permite establecer los datos de configuración que vamos a utilizar para nuestros proyectos. Y lo primero que tenemos q hacer es indicarle a git cual es nuestro nombre y nuestro correo electrónico, esto lo hacemos con el siguiente comando:
 
 ``` git config --global user.name "Edwin Ibañez" ```
 
-En este caso estoy diciendole a git que quiero hacer la configuración de manera global para no tener que indicar mi nombre cada vez que estoy trabajando en un proyecto. De la misma manera agregaré mi correo:
+En este caso estoy diciéndole a git que quiero hacer la configuración de manera global para no tener que indicar mi nombre cada vez que estoy trabajando en un proyecto. De la misma manera agregaré mi correo:
 
 ``` git config --global user.email "edwin.ibanez@tooducks.com ```
 
 Ya que hayamos hecho esto vamos a comenzar a trabajar con **GIT**.
-Para esto tenemos que crear un repositorio, un repositorio en terminos muy simples es un lugar en el que se guardan ciertas cosas, en nuestro caso el **codigo**.
+Para esto tenemos que crear un repositorio, un repositorio en términos muy simples es un lugar en el que se guardan ciertas cosas, en nuestro caso el **código**.
 Para crear el repositorio debemos primero tener un directorio, así que vamos a crearlo:
 
 ``` mkdir MentorHer ```
