@@ -15,6 +15,7 @@
 * [Promedios](un-poco-de-estadistica/promedios.md)
 * [Medianas](un-poco-de-estadistica/medianas.md)
 * [Moda](un-poco-de-estadistica/moda.md)
+* [Probabilidad](un-poco-de-estadistica/probabilidad.md)
 
 ## Python como herramienta de trabajo con datos
 
