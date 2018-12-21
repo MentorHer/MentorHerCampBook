@@ -2,7 +2,7 @@
 En este capitulo aprenderas:
 1. Experimentos Aleatorios
 2. Probabilidad Clásica
-3. Eventos EXcluyentes
+3. Eventos Excluyentes
 4. Probabilidad Condicional
 5. Eventos independientes
 La teoria de probabilidades se basa en la teoría de conjunto.
