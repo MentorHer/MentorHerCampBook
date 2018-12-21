@@ -22,7 +22,7 @@ La definición axiomatica se considera que un *Evento E*, es un subconjunto del 
 Si S es el *Espacio Muestral* asociado a un experimento aleatorio, la probabilidad de cualquier evento E dentro del Espacio Muestral es el número real P(E) que cumple:
 a)	0 <= P(E) <= 1
 b)	P(S) = 1
-CALCULO DE LA PROBABILIDAD
+### CALCULO DE LA PROBABILIDAD
 En un espacio muestral S donde existe un cierto número limitado de elementos. Si un evento E tiene h probabilidades de ocurrir entonces h = η(E), donde cada una de las posibilidades tiene la misma oportunidad de ocurrir que las demás, entonces:
      P(E) = \frac { η(E)}{ η(E)}
 
