@@ -1,10 +1,10 @@
 # Probabilidad
 En este capitulo aprenderas:
-1. Experimentos Aleatorios
-2. Probabilidad Clasica
-3. Eventos EXcluyentes
-4. Probabilidad Condicional
-5. Eventos independientes
+1. Experimentos Aleatorios.
+2. Probabilidad Clásica.
+3. Eventos EXcluyentes.
+4. Probabilidad Condicional.
+5. Eventos independientes.
 La teoria de probabilidades se basa en la teoría de conjunto.
 ## 1. EXPERIMENTOS ALEATORIOS
 ### 1.1 EXPERIMENTO
