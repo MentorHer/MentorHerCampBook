@@ -34,7 +34,7 @@ Entonces:
 P(E) = \frac {h}{n} = P(E) = \frac {1}{2}
 P(E) = 0.500 o 50% de ocurrir cualquiera de los resultados posibles.
 
-### 2) Calcular la probabilidad de obtener 9 en un mazo de 52 cartas.
+#### 2) Calcular la probabilidad de obtener 9 en un mazo de 52 cartas.
 Se sabe que en un mazo podrá obtenerse 4 diferentes cartas con el número 9 (CORAZONES, DIAMANTES, ESPADAS, TREBOLES).
 Entonces la probabilidad de ocurrir un evento es 4, h = 4.
 El total de opciones que se tiene es 52, n= 52.
