@@ -20,20 +20,28 @@ El número de *Puntos muéstrales * del espacio muestral se representa por η(S)
 ## 2. PROBABILIDAD CLÁSICA
 La definición axiomática de la probabilidad, se considera que un *Evento E*, es un subconjunto del *Espacio Muestral* S.
 Si S es el *Espacio Muestral* asociado a un experimento aleatorio, la probabilidad de cualquier evento E dentro del Espacio Muestral es el número real P(E) que cumple:
+
 a)	0 <= P(E) <= 1
 b)	P(S) = 1
+
 ### CALCULO DE LA PROBABILIDAD
 En un espacio muestral S donde existe un cierto número limitado de elementos. Si un evento E tiene h probabilidades de ocurrir entonces h = η(E), entre un total de n posibilidades, lo que significa n = η(S), donde cada una de las posibilidades tiene la misma oportunidad de ocurrir que las demás, entonces:
+
      P(E) = \frac { η(E)}{ η(S)}
      P(E) = \frac {h}{n}
+     
 ### EJEMPLO
+
 #### 1) Se calcula la probabilidad de obtener cara al lanzar una moneda.
+
 Datos. -
 Al lanzar una moneda solo se puede obtener CARA O ESCUDO (2 posibles resultados)
 Entonces:
 P(E) = \frac {h}{n} = P(E) = \frac {1}{2}
 P(E) = 0.500 o 50% de ocurrir cualquiera de los resultados posibles.
+
 #### 2) Calcular la probabilidad de obtener 9 en un mazo de 52 cartas.
+
 Se sabe que en un mazo podrá obtenerse 4 diferentes cartas con el número 9 (CORAZONES, DIAMANTES, ESPADAS, TREBOLES).
 Entonces la probabilidad de ocurrir un evento es 4, h = 4.
 El total de opciones que se tiene es 52, n= 52.
