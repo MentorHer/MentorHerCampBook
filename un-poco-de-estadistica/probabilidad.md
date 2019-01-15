@@ -12,7 +12,7 @@ Se llama experimento al proceso, por el cual se obtiene un resultado de una obse
  * Un experimento es determinístico, cuando el resultado de la observación se puede predecir en forma precisa.
  * Un experimento es aleatorio, cuando el resultado de la observación no se puede predecir con exactitud.
 ### 1.2 ESPACIO MUESTRAL
- Al conjunto S que contiene a todos los resultados posibles de un *Experimento aleatorio*, se lo llama *Espacio muestral*. Cada resultado posible del *Experimento Aleatorio* será un elemento de S, estos elementos se llaman *Puntos Muéstrales*. Cada conjunto que es, se describe al *Espacio Muestral* por:
+Al conjunto S que contiene a todos los resultados posibles de un *Experimento aleatorio*, se lo llama *Espacio muestral*. Cada resultado posible del *Experimento Aleatorio* será un elemento de S, estos elementos se llaman *Puntos Muéstrales*. Cada conjunto que es, se describe al *Espacio Muestral* por:
     S= {w/w es un punto muestral}
 ### 1.3 NUMERO DE PUNTOS MUESTRALES
 Cuando se estudia la teoría de probabilidades, el número de elementos que contiene el conjunto a se representa por η(A).
