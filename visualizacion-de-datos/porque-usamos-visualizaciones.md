@@ -32,7 +32,6 @@ Hay una gran variedad de métodos de visualización para presentar los datos de 
 
 Tipos comunes de visualizaciones de datos:
 
-- Gráficos
 - Tablas
 - Gráficos
 - Mapas
