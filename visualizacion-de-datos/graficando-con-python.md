@@ -18,9 +18,11 @@ El primer tipo de grafica que veremos sera:
 
 Generalmente se usa para presentar observaciones recolectadas en intervalos regulares. En el eje x se representa el intervalo regular, como el tiempo. En el eje y mostramos las observaciones, ordenadas por el eje x y conectadas por una linea.
 
-![Linear Plot] (https://farm8.staticflickr.com/7810/31878167537_3d3f52c009_b.jpg) 
+[![Linear Plot][linear]
+[linear]: https://farm8.staticflickr.com/7810/31878167537_3d3f52c009_b.jpg] 
 
 Esta linea se crea llamando a la funcion ```plot()``` que recibe dos parametros: Los datos para el eje x que contiene los intervalos regulares y las observaciones para el eje y. 
 Este tipo de graficos son bastante utiles para presentar series de tiempo y secuencias de datos donde hay una orden entre las observaciones. 
 
 Al ejecutar el ejemplo se crea un diagrama de líneas que muestra el patrón de onda sinusoidal en el eje y a lo largo del eje x con un intervalo constante entre las observaciones.
+
