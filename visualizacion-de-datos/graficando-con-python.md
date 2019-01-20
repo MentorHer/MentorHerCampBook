@@ -9,7 +9,7 @@ Esta libreria nos permite crear graficas estadisticas atractivas e informativas.
 
 Lo primero que tenemos que hacer es importar alguna de las librarias:
 ![Importando Matplotlib][matplotlib]
-[matplotlib]: https://drive.google.com/file/d/1ODBCW_X3qYt4S9YfXGNiPOn3uPSLVTqq/view?usp=sharing 
+[matplotlib]: https://farm5.staticflickr.com/4867/31878128527_0250445bbc_b.jpg 
 
 El primer tipo de grafica veremos sera:
 
