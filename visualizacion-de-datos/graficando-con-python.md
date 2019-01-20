@@ -8,7 +8,8 @@ Nos permite graficar desde histogramas hasta graficas lineales y mapas de calor.
 Esta libreria nos permite crear graficas estadisticas atractivas e informativas.  Esta basado en matplotlib. Su objetivo es hacer de las visualizaciones un parte central de la exploracion de datos y nos permite crear visualizaciones mas complejas.
 
 Lo primero que tenemos que hacer es importar alguna de las librarias:
-[Importando Matplotlib]: https://drive.google.com/file/d/1ODBCW_X3qYt4S9YfXGNiPOn3uPSLVTqq/view?usp=sharing 
+![Importando Matplotlib][matplotlib]
+[matplotlib]: https://drive.google.com/file/d/1ODBCW_X3qYt4S9YfXGNiPOn3uPSLVTqq/view?usp=sharing 
 
 El primer tipo de grafica veremos sera:
 
