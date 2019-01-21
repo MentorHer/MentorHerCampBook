@@ -21,7 +21,7 @@ Generalmente se usa para presentar observaciones recolectadas en intervalos regu
 ![Linear Plot][linear]
 [linear]: https://farm8.staticflickr.com/7810/31878167537_3d3f52c009_b.jpg
 
-[<img src="https://farm8.staticflickr.com/7810/31878167537_3d3f52c009_b.jpg">]
+<img src="https://farm8.staticflickr.com/7810/31878167537_3d3f52c009_b.jpg" style="width: 50%; height: 50%">
 
 
 Esta linea se crea llamando a la funcion ```plot()``` que recibe dos parametros: Los datos para el eje x que contiene los intervalos regulares y las observaciones para el eje y. 
