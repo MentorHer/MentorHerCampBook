@@ -7,8 +7,9 @@ Nos permite graficar desde histogramas hasta graficas lineales y mapas de calor.
 ###Seaborn###
 Esta libreria nos permite crear graficas estadisticas atractivas e informativas.  Esta basado en matplotlib. Su objetivo es hacer de las visualizaciones un parte central de la exploracion de datos y nos permite crear visualizaciones mas complejas.
 
-Lo primero que tenemos que hacer es importar alguna de las librarias:
-<img src="https://farm5.staticflickr.com/4867/31878128527_0250445bbc_b.jpg" style="width: 80%; height: 80%">
+Lo primero que tenemos que hacer es importar alguna de las librerias:
+
+<img src="https://farm5.staticflickr.com/4867/31878128527_0250445bbc_b.jpg" style="width: 90%; height: 90%">
 
 El primer tipo de grafica que veremos sera:
 
