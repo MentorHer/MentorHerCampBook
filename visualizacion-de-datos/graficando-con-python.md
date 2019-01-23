@@ -9,7 +9,7 @@ Esta libreria nos permite crear graficas estadisticas atractivas e informativas.
 
 Lo primero que tenemos que hacer es importar alguna de las librerias:
 
-<img src="https://farm5.staticflickr.com/4867/31878128527_0250445bbc_b.jpg" style="width: 85%; height: 85%">
+<img src="https://farm5.staticflickr.com/4867/31878128527_0250445bbc_b.jpg" style="width: 75%; height: 75%">
 
 El primer tipo de grafica que veremos sera:
 
@@ -37,3 +37,31 @@ Se puede crear un gráfico de barras llamando a la función ```bar()``` y pasand
 Un grafico de barras puede ser util para comparar multiples cantidades de puntos o estimaciones.
 
 En el ejemplo anterior se crea un set de datos con tres categorias, cada una definida con una etiqueta. Se dibuja un único valor entero aleatorio para la cantidad en cada categoría.
+
+###Histogramas###
+
+Un histograma generalmente se use para resumir la distribucion de una muestra de datos.
+
+El eje x representa intervalos discretos o intervalos para las observaciones. Por ejemplo, las observaciones con valores entre 1 y 10 se pueden dividir en cinco barras, los valores [1,2] se asignarán a la primera barra, [3,4] se asignarán a la segunda barra, y así sucesivamente.
+
+El eje y representa la frecuencia o el recuento del número de observaciones en el conjunto de datos que pertenecen a cada barra.
+
+Esencialmente, una muestra de datos se transforma en un gráfico de barras donde cada categoría en el eje x representa un intervalo de valores de observación.
+
+Se puede crear un diagrama de histograma llamando a la función ```hist()``` y pasando una lista o matriz que representa la muestra de datos.
+
+<img src="https://farm5.staticflickr.com/4858/46845304771_263e615479_z.jpg" style="width: 80%; height: 80%">
+
+Siguiendo el ejemplo, podemos ver que la forma de las barras muestra la curva en forma de campana de la distribución gaussiana. Podemos ver que la función eligió automáticamente el número de barras, en este caso dividiendo los valores en grupos por valor entero.
+
+###Diagrama de caja (Diagrama de caja y bigotes)###
+
+Una gráfica de caja y bigotes generalmente se usa para resumir la distribución de una muestra de datos siendo una alternativa a los histogramas.
+
+El eje x se utiliza para representar la muestra de datos, donde se pueden dibujar varios diagramas de caja uno al lado del otro si se desea.
+
+El eje y representa los valores de observación. Se dibuja un cuadro para resumir el 50% medio del conjunto de datos que comienza en la observación en el percentil 25 y termina en el percentil 75. La mediana, o percentil 50, se dibuja con una línea. Un valor llamado rango intercuartil, o IQR, se calcula como 1.5 * la diferencia entre los percentiles 75 y 25. Las líneas llamadas bigotes se dibujan extendiéndose desde ambos extremos de la caja con la longitud del IQR para demostrar el rango esperado de valores sensibles en la distribución. Las observaciones fuera de los bigotes pueden ser valores atípicos y se dibujan con pequeños círculos.
+
+Los diagramas de caja se pueden dibujar llamando a la función ```boxplot()``` que recibe la muestra de datos como una matriz o lista.
+
+Estos diagramas pueden ayudar a obtener rápidamente una idea del rango de valores comunes y sensibles en la caja y en el bigote, respectivamente. Debido a que no estamos observando la forma de la distribución explícitamente, este método se usa a menudo cuando los datos tienen una distribución desconocida o inusual, como la no gaussiana.
