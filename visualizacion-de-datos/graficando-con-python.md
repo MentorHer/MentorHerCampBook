@@ -65,3 +65,23 @@ El eje y representa los valores de observación. Se dibuja un cuadro para resumi
 Los diagramas de caja se pueden dibujar llamando a la función ```boxplot()``` que recibe la muestra de datos como una matriz o lista.
 
 Estos diagramas pueden ayudar a obtener rápidamente una idea del rango de valores comunes y sensibles en la caja y en el bigote, respectivamente. Debido a que no estamos observando la forma de la distribución explícitamente, este método se usa a menudo cuando los datos tienen una distribución desconocida o inusual, como la no gaussiana.
+
+<img src="https://farm5.staticflickr.com/4823/39947385663_1610e1e5ed_z.jpg" style="width: 80%; height: 80%">
+
+El ejemplo crea tres diagramas gráfico, cada uno de los cuales resume una muestra de datos extraída de una distribución gaussiana ligeramente diferente. Cada muestra de datos se crea como una matriz y las tres matrices de muestras de datos se agregan a una lista que se rellena a la función de trazado.
+
+###Grafico de Dispersion###
+
+Un gráfico de dispersión se utiliza generalmente para resumir la relación entre dos muestras de datos emparejados.
+
+Las muestras de datos emparejados significan que se registraron dos medidas para una observación dada, como el peso y la altura de una persona.
+
+El eje x representa los valores de observación para la primera muestra, y el eje y representa los valores de observación para la segunda muestra. Cada punto en la trama representa una sola observación.
+
+Se puede cuantificar una correlación, como una línea de mejor ajuste, que también se puede dibujar como un trazado de líneas en el mismo gráfico, lo que hace que la relación sea más clara.
+
+Un conjunto de datos puede tener más de dos medidas (variables o columnas) para una observación determinada. Una matriz de gráfico de dispersión es un carro que contiene gráficos de dispersión para cada par de variables en un conjunto de datos con más de dos variables.
+
+<img src="https://farm8.staticflickr.com/7860/46860218132_bcfd483432_z.jpg" style="width: 80%; height: 80%">
+
+El ejemplo crea dos muestras de datos que están relacionadas. La primera es una muestra de números aleatorios extraídos de un gaussiano estándar. El segundo depende del primero al agregar un segundo valor gaussiano aleatorio al valor del primer compás.
