@@ -24,6 +24,10 @@ Este tipo de graficos son bastante utiles para presentar series de tiempo y secu
 
 Al ejecutar el ejemplo se crea un diagrama de líneas que muestra el patrón de onda sinusoidal en el eje y a lo largo del eje x con un intervalo constante entre las observaciones.
 
+El mismo ejemplo se ve de este modo usando Seaborn. Es importante recalcar que no se omite la libreria de matplotlib.
+
+<img src="https://farm5.staticflickr.com/4832/46240016024_2c840cc650_z.jpg" style="width: 80%; height: 80%">
+
 ###Bar Chart###
 
 Este grafico generalmente se usa para presentar cantidades relativas para categorias multiples.
@@ -37,6 +41,10 @@ Se puede crear un gráfico de barras llamando a la función ```bar()``` y pasand
 Un grafico de barras puede ser util para comparar multiples cantidades de puntos o estimaciones.
 
 En el ejemplo anterior se crea un set de datos con tres categorias, cada una definida con una etiqueta. Se dibuja un único valor entero aleatorio para la cantidad en cada categoría.
+
+En Seaborn este ejemplo se ve de este modo, en este caso no usamos matplotlib, solamente los metodos propios de Seaborn.
+
+<img src="https://farm5.staticflickr.com/4832/46240228774_4260d151b3_z.jpg" style="width: 80%; height: 80%">
 
 ###Histogramas###
 
@@ -54,6 +62,10 @@ Se puede crear un diagrama de histograma llamando a la función ```hist()``` y p
 
 Siguiendo el ejemplo, podemos ver que la forma de las barras muestra la curva en forma de campana de la distribución gaussiana. Podemos ver que la función eligió automáticamente el número de barras, en este caso dividiendo los valores en grupos por valor entero.
 
+En Seaborn este ejemplo con un histograma se ve de este modo, en este caso no usamos matplotlib, solamente los metodos propios de Seaborn.
+
+<img src="https://farm5.staticflickr.com/4824/46240374524_83181b25c8_z.jpg" style="width: 80%; height: 80%">
+
 ###Diagrama de caja (Diagrama de caja y bigotes)###
 
 Una gráfica de caja y bigotes generalmente se usa para resumir la distribución de una muestra de datos siendo una alternativa a los histogramas.
@@ -70,6 +82,10 @@ Estos diagramas pueden ayudar a obtener rápidamente una idea del rango de valor
 
 El ejemplo crea tres diagramas gráfico, cada uno de los cuales resume una muestra de datos extraída de una distribución gaussiana ligeramente diferente. Cada muestra de datos se crea como una matriz y las tres matrices de muestras de datos se agregan a una lista que se rellena a la función de trazado.
 
+En Seaborn este ejemplo con un histograma se ve de este modo, en este caso no usamos matplotlib, solamente los metodos propios de Seaborn.
+
+<img src="https://farm8.staticflickr.com/7866/40000628243_29bc4f0839_z.jpg" style="width: 80%; height: 80%">
+
 ###Grafico de Dispersion###
 
 Un gráfico de dispersión se utiliza generalmente para resumir la relación entre dos muestras de datos emparejados.
@@ -85,3 +101,7 @@ Un conjunto de datos puede tener más de dos medidas (variables o columnas) para
 <img src="https://farm8.staticflickr.com/7860/46860218132_bcfd483432_z.jpg" style="width: 80%; height: 80%">
 
 El ejemplo crea dos muestras de datos que están relacionadas. La primera es una muestra de números aleatorios extraídos de un gaussiano estándar. El segundo depende del primero al agregar un segundo valor gaussiano aleatorio al valor del primer compás.
+
+En Seaborn este ejemplo con un grafico de dispersion se ve de este modo, en este caso no usamos matplotlib, solamente los metodos propios de Seaborn.
+
+<img src="https://farm5.staticflickr.com/4862/46913764602_d5270764bb_z.jpg" style="width: 80%; height: 80%">
