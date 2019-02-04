@@ -105,3 +105,5 @@ El ejemplo crea dos muestras de datos que están relacionadas. La primera es una
 En Seaborn este ejemplo con un grafico de dispersion se ve de este modo, en este caso no usamos matplotlib, solamente los metodos propios de Seaborn.
 
 <img src="https://farm5.staticflickr.com/4862/46913764602_d5270764bb_z.jpg" style="width: 80%; height: 80%">
+
+###Recursos Adicionales###
