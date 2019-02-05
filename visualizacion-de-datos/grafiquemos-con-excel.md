@@ -23,13 +23,17 @@ El resultado del grafico sera similar al siguiente, se puede customizar mas al g
 
 ###Grafico de Barras###
 
-Usando los datos anteriores y bajo la misma opcion de Insertar se encuentra la opcion Graficos(Chart), en esta opcion se muestran distintos tipos de graficos, vamos hasta la opcion Barras (Bar) y seleccionamos esa opcion.
+Usando los datos anteriores y bajo la misma opcion de Insertar se encuentra la opcion Graficos(Chart), en esta opcion se muestran distintos tipos de graficos.
 
 <img src="https://farm8.staticflickr.com/7923/40012475033_4837bdbdfc.jpg" style="width: 75%; height: 75%">
 
-Al seleccionar esta opcion se insertara el grafico de barras que estara listo para personalizar.
+Seleccionamos la opcion del grafico de barras que muestra una vista previa de la apariencia del grafico.
 
 <img src="https://farm8.staticflickr.com/7895/46063327415_725df8c384.jpg" style="width: 75%; height: 75%">
+
+Al seleccionar esta opcion se insertara el grafico de barras que estara listo para personalizar.
+
+<img src="https://farm5.staticflickr.com/4821/33101559828_3fe5792cfb.jpg" style="width: 75%; height: 75%">
 
 ###Grafico Circular###
 
@@ -37,19 +41,22 @@ Un gráfico circular  también llamado "gráfico de pastel", "gráfico de tarta"
 
 En este caso solo se va comparar todos los datos de una misma columna. 
 
-<img src="https://farm5.staticflickr.com/4821/33101559828_3fe5792cfb.jpg" style="width: 75%; height: 75%">
+<img src="https://farm8.staticflickr.com/7852/46063327215_944672774b.jpg" style="width: 75%; height: 75%">
 
 Luego en la opcion Insertar se busca el grafico circular(resaltado en amarillo). 
 
-<img src="https://farm8.staticflickr.com/7852/46063327215_944672774b.jpg" style="width: 75%; height: 75%">
+<img src="https://farm5.staticflickr.com/4913/46063327095_043e0b1bd0.jpg" style="width: 75%; height: 75%">
 
 Esta opcion desplega las templetas de graficos circulares. 
 
-<img src="https://farm5.staticflickr.com/4913/46063327095_043e0b1bd0.jpg" style="width: 75%; height: 75%">
+<img src="https://farm5.staticflickr.com/4819/33101559748_7b1fe95a0c.jpg" style="width: 75%; height: 75%">
 
 Seleccionamos la primera opcion que es la mas popular. En este  grafico se puede apreciar como las proporciones son distintas para una misma caracteristica en distintas gestiones.
 
-<img src="https://farm5.staticflickr.com/4819/33101559748_7b1fe95a0c.jpg" style="width: 75%; height: 75%">
 <img src="https://farm8.staticflickr.com/7828/46063326935_0fb929165d.jpg" style="width: 75%; height: 75%">
+
+###Graficos de dispersion###
+
+
 <img src="https://farm8.staticflickr.com/7820/33101559628_0b6f9049e0.jpg" style="width: 75%; height: 75%">
 <img src="https://farm8.staticflickr.com/7829/46925064442_fd715bb068.jpg" style="width: 75%; height: 75%">
