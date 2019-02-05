@@ -107,3 +107,7 @@ En Seaborn este ejemplo con un grafico de dispersion se ve de este modo, en este
 <img src="https://farm5.staticflickr.com/4862/46913764602_d5270764bb_z.jpg" style="width: 80%; height: 80%">
 
 ###Recursos Adicionales###
+
+Este [post](https://code.likeagirl.io/an%C3%A1lisis-y-visualizaci%C3%B3n-de-datos-con-pandas-matplotlib-85ee4d7b4cad) encontraras un ejemplo completo de visualizacion con matplotlib. Te animas a crear tu propia version usando Seaborn? 
+
+Si te interesa explorar otros lenguajes de programacion, este [sitio](https://bbc.github.io/rcookbook/#how_to_create_bbc_style_graphics) de la BBC te muestra como realizan sus visualizaciones usando R.

@@ -64,3 +64,9 @@ Para los graficos de dispersion, seleccionamos los datos y luego buscamos la opc
 Es posible  tener multiples caracteristicas a graficar y comparar. Sin embargo, mientras mas caracteristicas se aumentan a la grafica es mas complicado interpretar proporciones y correlacion. 
 
 <img src="https://farm8.staticflickr.com/7829/46925064442_fd715bb068.jpg" style="width: 75%; height: 75%">
+
+###Recursos Adicionales###
+
+Te dejamos este ejemplo de personalizacion para un [grafico de barras](https://exceltotal.com/visualizacion-de-datos/), ademas este sitio contiene muchos otros tips para que puedas profundizar tu conocimiento en excel.
+
+Tambien puedes seguir este [curso de Excel](https://www.edx.org/es/course/excel-fundamentos-y-herramientas) totalmente gratuito, dictado por la Universidad Politecnica de Valencia.

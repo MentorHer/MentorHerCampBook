@@ -38,3 +38,13 @@ Tipos comunes de visualizaciones de datos:
 - Infografías
 - Dashboards
 
+###Recursos Adicionales###
+
+Un sitio interesante sobre visualizacion de datos es [The Pudding](https://pudding.cool/), este sitio esta en ingles pero cuenta con ejemplos creativos y sobre tematicas muy diversas.
+
+En este recurso encontraras como la visualizacion de datos puede ayudar a las [empresas](https://medium.com/qu4nt/beneficios-de-la-visualizaci%C3%B3n-de-datos-para-las-empresas-f6b1c20decb4).
+
+Si quieres conocer como Storytelling se fusiona con datos, puedes seguir este [link](https://www.decideo.com/Aprenda-a-narrar-historias-a-partir-de-los-datos-con-el-Data-Storytelling_a679.html).
+
+
+
