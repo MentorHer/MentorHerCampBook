@@ -20,11 +20,35 @@ Al seleccionar esta opcion se desplegaran las distintas opciones de graficos lin
 El resultado del grafico sera similar al siguiente, se puede customizar mas al grafico y agregar etiquetas con los valores para cada gestion. 
 
 <img src="https://farm5.staticflickr.com/4877/32034706897_baaff964fe.jpg" style="width: 75%; height: 75%">
+
+###Grafico de Barras###
+
+Usando los datos anteriores y bajo la misma opcion de Insertar se encuentra la opcion Graficos(Chart), en esta opcion se muestran distintos tipos de graficos, vamos hasta la opcion Barras (Bar) y seleccionamos esa opcion.
+
 <img src="https://farm8.staticflickr.com/7923/40012475033_4837bdbdfc.jpg" style="width: 75%; height: 75%">
+
+Al seleccionar esta opcion se insertara el grafico de barras que estara listo para personalizar.
+
 <img src="https://farm8.staticflickr.com/7895/46063327415_725df8c384.jpg" style="width: 75%; height: 75%">
+
+###Grafico Circular###
+
+Un gráfico circular  también llamado "gráfico de pastel", "gráfico de tarta", "gráfico de torta" o "gráfica de 360 grados", es un recurso estadístico que se utiliza para representar porcentajes y proporciones. El número de elementos comparados dentro de una gráfica circular suele ser de más de cuatro.
+
+En este caso solo se va comparar todos los datos de una misma columna. 
+
 <img src="https://farm5.staticflickr.com/4821/33101559828_3fe5792cfb.jpg" style="width: 75%; height: 75%">
+
+Luego en la opcion Insertar se busca el grafico circular(resaltado en amarillo). 
+
 <img src="https://farm8.staticflickr.com/7852/46063327215_944672774b.jpg" style="width: 75%; height: 75%">
+
+Esta opcion desplega las templetas de graficos circulares. 
+
 <img src="https://farm5.staticflickr.com/4913/46063327095_043e0b1bd0.jpg" style="width: 75%; height: 75%">
+
+Seleccionamos la primera opcion que es la mas popular. En este  grafico se puede apreciar como las proporciones son distintas para una misma caracteristica en distintas gestiones.
+
 <img src="https://farm5.staticflickr.com/4819/33101559748_7b1fe95a0c.jpg" style="width: 75%; height: 75%">
 <img src="https://farm8.staticflickr.com/7828/46063326935_0fb929165d.jpg" style="width: 75%; height: 75%">
 <img src="https://farm8.staticflickr.com/7820/33101559628_0b6f9049e0.jpg" style="width: 75%; height: 75%">
