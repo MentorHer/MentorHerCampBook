@@ -57,6 +57,10 @@ Seleccionamos la primera opcion que es la mas popular. En este  grafico se puede
 
 ###Graficos de dispersion###
 
+Para los graficos de dispersion, seleccionamos los datos y luego buscamos la opcion Scatter que representa a los graficos de dispersion.
 
 <img src="https://farm8.staticflickr.com/7820/33101559628_0b6f9049e0.jpg" style="width: 75%; height: 75%">
+
+Es posible  tener multiples caracteristicas a graficar y comparar. Sin embargo, mientras mas caracteristicas se aumentan a la grafica es mas complicado interpretar proporciones y correlacion. 
+
 <img src="https://farm8.staticflickr.com/7829/46925064442_fd715bb068.jpg" style="width: 75%; height: 75%">
