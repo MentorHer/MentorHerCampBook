@@ -5,11 +5,20 @@ Excel es una herramienta facil de usar que permite analizar datos sin la necesid
 ###Grafico Lineal###
 
 Para este ejemplo usaremos una tabla que contiene dos columnas de datos y cada fila representa el valor anual para cada categoria. 
+Seleccionamos todos los datos que queremos graficar.
 
 <img src="https://farm5.staticflickr.com/4896/46251531124_377734732f.jpg" style="width: 75%; height: 75%">
 
+Luego vamos a la opcion Insertar (Insert) y seleccionamos el grafico de lineas (remarcado en amarillo).
+
 <img src="https://farm5.staticflickr.com/4836/46251530984_266c869a44.jpg" style="width: 75%; height: 75%">
+
+Al seleccionar esta opcion se desplegaran las distintas opciones de graficos lineales, en nuestro caso vamos por el mas sencillo que mostrara los valores de ambas columnas.
+
 <img src="https://farm5.staticflickr.com/4854/46251531294_411b279ace.jpg" style="width: 75%; height: 75%">
+
+El resultado del grafico sera similar al siguiente, se puede customizar mas al grafico y agregar etiquetas con los valores para cada gestion. 
+
 <img src="https://farm5.staticflickr.com/4877/32034706897_baaff964fe.jpg" style="width: 75%; height: 75%">
 <img src="https://farm8.staticflickr.com/7923/40012475033_4837bdbdfc.jpg" style="width: 75%; height: 75%">
 <img src="https://farm8.staticflickr.com/7895/46063327415_725df8c384.jpg" style="width: 75%; height: 75%">
