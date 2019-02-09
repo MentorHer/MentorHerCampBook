@@ -26,6 +26,8 @@ Para instalar **Python**, nuestra herramienta de trabajo, debes a seguir los sig
 
 ###Windows###
 Primero comprueba si tu computador tiene una version de Windows de 32-bit o 64-bit, presiona la tecla Windows + Pause/Break, esto abrirá tu System info (información de tu sistema), ahora busta la linea "System type". Puedes descargar Python para Windows desde el sitio web https://www.python.org/downloads/windows/. Haz click en el link "Latest Python 3 release - Python x.x.x.". Si tu computador tiene una versión de Windows de 64 bits, descarga Windows x86-64 executable installer. De lo contrario, descarga Windows x86 executable installer. Después de descargar el instalador, debes ejecutarlo (hazle doble click) y sigue las instrucciones.
+
+
 ![Página de descargas de Python](install_python1.jpg)
 
 Para considerar: Durante la instalación verás una ventana llamada "Setup". Asegúrate de seleccionar la casilla "Add Python 3.x to Path" y luego haz click en "Install Now", como se muestra a continuación:
@@ -43,9 +45,13 @@ Para verificar que Python está correctamente instalado, abre la terminal de tu 
 Debes ir al sitio web https://www.python.org/downloads/mac-osx/ y descargar el instalador de Python:
 
 * Descargar el archivo Mac OS X 64-bit/32-bit installer
+
 ![Python para Mac](install_mac.jpg)
 
+
+
 * Selecciona python-3.7.x-macosx.x.pkg para ejecutar al instalador.
+
 ![Iniciando la instalación python para Mac](install_mac2.jpg)
 
 
