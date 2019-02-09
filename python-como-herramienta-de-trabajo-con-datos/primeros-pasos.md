@@ -240,3 +240,4 @@ Entre otras referencias para aprender más detalles de Python como lenguaje de p
 
 * Introducción a Python de las djangogirls https://tutorial.djangogirls.org/es/python_introduction/
 * Aprende Python http://www.learnpython.org/en/Welcome
+* Más de Python con la versión 2.7 https://www.iaa.csic.es/python/curso-python-para-principiantes.pdf 
