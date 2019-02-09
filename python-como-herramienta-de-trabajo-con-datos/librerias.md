@@ -4,7 +4,7 @@ Ya sabes como funciona Python, cuáles son algunos de sus usos, cómo escribir u
 
 Ahora vamos a aprender un poco más sobre las diferentes herramientas y contigo que Python utiliza, estas son las librerías, que en realidad son un código escrito en Python que puede ser reutilizado por otro programador.
 
-Por ejemplo:
+A continuación mencionamos algunas de estas librerías.
 
 ### NumPy
 
@@ -25,8 +25,12 @@ import numpy as np
 ```
 
 Ejemplo de uso (matrices):
->>> a = np.arange(15).reshape(3, 5)
->>> a
+
+```python
+a = np.arange(15).reshape(3, 5)
+```
+
+> a
 array([[ 0,  1,  2,  3,  4],
        [ 5,  6,  7,  8,  9],
        [10, 11, 12, 13, 14]])
@@ -70,7 +74,6 @@ plt.show()  # así mostramos la gráfica generada
 
 
 
-Otras librerías que nos servirán para que puedas trabajar con datos son:
 
 ### Pandas
 
