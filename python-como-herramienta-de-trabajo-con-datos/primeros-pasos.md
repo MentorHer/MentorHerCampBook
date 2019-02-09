@@ -56,8 +56,15 @@ Debes ir al sitio web https://www.python.org/downloads/mac-osx/ y descargar el i
 
 
 ###Comprobando que python está instalado###
-Escribe "python3 --version" en la línea de comando y verás:
+Escribe:
+
+>> python3 --version
+
+en la línea de comando y verás:
+
 <p>Python 3.6.1</p>
+
+
 
 Ya estamos listos para seguir!
 
