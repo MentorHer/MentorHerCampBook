@@ -47,4 +47,4 @@ Los ejercicios que se muestran a continuacion no son obligatorios pero el realiz
 
 3. Como calcularias el producto de dos matrices? (Se permite usar metodos de alguna libreria)
 
-4. 
+4. A continuacion tenemos un set de datos sobre [adultos](https://drive.google.com/file/d/1PnwGInXSRSpcKuIsLTlw0bHr41iqQjO4/view?usp=sharing), el reto consiste en buscar los valores que se vean anormales o irreales y graficarlos; escoger una solucion para que el dataset no tenga esos valores(eliminar columnas, crear nuevos valores, etc)  y explicar en unas lineas cual es el procedimiento que se uso y la razon para usarlo.
