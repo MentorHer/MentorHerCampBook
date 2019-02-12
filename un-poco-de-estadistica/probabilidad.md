@@ -27,8 +27,8 @@ b)	P(S) = 1
 ### CALCULO DE LA PROBABILIDAD
 En un espacio muestral S donde existe un cierto número limitado de elementos. Si un evento E tiene h probabilidades de ocurrir entonces h = η(E), entre un total de n posibilidades, lo que significa n = η(S), donde cada una de las posibilidades tiene la misma oportunidad de ocurrir que las demás, entonces:
 
->P(E) = $\frac{ η(E)}{ η(S)}
->P(E) = $\frac{h}{n}
+>P(E) = $\frac{ η(E)}{ η(S)}$
+>P(E) = $\frac{h}{n}$
      
 ### EJEMPLO
 
@@ -38,7 +38,7 @@ Datos. -
 Al lanzar una moneda solo se puede obtener CARA O ESCUDO (2 posibles resultados)
 Entonces:
 
->P(E) = $\frac{h}{n} = P(E) = $\frac{1}{2}
+>P(E) = $\frac{h}{n} = P(E) = \frac{1}{2}$
 
 P(E) = 0.500 o 50% de ocurrir cualquiera de los resultados posibles.
 
@@ -49,7 +49,7 @@ Entonces la probabilidad de ocurrir un evento es 4, h = 4.
 El total de opciones que se tiene es 52, n= 52.
 Entonces:
 
->P(E) = $\frac{h}{n} = P(E) = $\frac{4}{52}
+>P(E) = $\frac{h}{n} = P(E) = \frac{4}{52}$
 
 P(E) = 0.077  o 7,69 % de encontrar alguna carta con número 9.
 
