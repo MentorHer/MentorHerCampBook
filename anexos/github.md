@@ -125,3 +125,109 @@ Luego entramos a ese directorio:
 ``` git init ```
 
 Esto nos va a crear un repositorio local en nuestra computadora y nos va a generar una carpeta oculta llamada **.git** que es donde se guardara toda la información referente a los cambios que estamos realizando a nuestro proyecto, ustedes nunca van a tener que entrar ahí pero es bueno que sepan donde se guarda.
+
+Este directorio es donde se almacenará nuestro proyecto ahí estará almacenado todo nuestro código, vamos a hacer un ejemplo de la creación de un documento en nuestro directorio ejecutando el siguiente comando:
+
+``` echo "Mentor Her" >> README.txt ```
+
+Y luego vamos a ejecutar el siguiente comando para ver como se encuentra nuestro repositorio:
+
+``` git status ```
+
+Nos mostrará la siguiente imagen:
+
+![Git Status][status]
+
+[status]: http://i63.tinypic.com/2074w3m.jpg
+
+Aqui podemos ver que detecto un archivo nuevo que no esta teniendo seguimiento, lo vamos a agregar al stage ejecutando el siguiente comando:
+
+``` git add README.txt ```
+
+Y si ejecutamos de nuevo:
+
+``` git status ```
+
+Nos mostrará la siguiente imagen:
+
+![Status][again]
+
+[again]: http://i66.tinypic.com/2dlp5sm.png
+
+En este punto veremos que nuestro archivo cambio a verde, esto significa que ya estamos empezando a tener seguimiento de este archivo y por último hacemos un commit con el comando:
+
+``` git commit -m "Crear archivo README.txt" ```
+
+Lo que esta entre comillas es un comentario de porque estamos registrando este cambio.
+Ejecutando ese comando nos mostrará la siguiente imagen:
+
+![commit][commit]
+
+[commit]: http://i67.tinypic.com/2wgrp1s.png
+
+Si Ejecutamos de nuevo el siguiente comando: 
+
+``` git status ```
+
+Y nos mostrará la siguiente imagen:
+
+![commit1][commit1]
+
+[commit1]: http://i68.tinypic.com/kbovn4.png
+
+En la imagen como vemos nos dice que estamos sobre el branch master, este es el branch por defecto donde trabajamos nuestro proyecto, se pueden crear más pero en este caso no será necesario y también podemos ver que no tenemos nada para hacer commit, sin embargo para seguir con la prueba ejecutamos el siguiente comando:
+
+``` sudo nano README.txt ```
+
+Se abrirá el editor de texto con nuestro archivo **README.txt** modificamos por ejemplo como esta en la siguiente imagen:
+
+![editar][editar]
+
+[editar]: http://i68.tinypic.com/hsq3wx.png
+
+Guardamos este archivo que acabamos de editar. Y vamos a ejecutar el siguiente comando:
+
+``` touch mentorher ```
+
+Este comando lo que hace es crear un archivo llamado mentorher, ahora ejecutamos nuevamente:
+
+``` git status ```
+
+Nos mostrará la siguiente imagen:
+
+![editar2][editar2]
+
+[editar2]: http://i66.tinypic.com/sfxr9u.png
+
+Como pueden ver en la imagen estan los últimos comandos utilizados y al ejecutar **git status** nos muestra que hemos modificado el archivo **README.txt** y que no estamos haciendo seguimiento al archivo mentorher que creamos con el comando **touch mentorher** ya que es nuevo.
+
+Para añadirlos al stage podemos ejecutar:
+
+``` git add README.txt mentorher ```
+
+Así añadimos todos los archivos, pero tambien se puede ejecutar:
+
+``` git add . ``` o ``` git add --all ```
+
+Esto agregará todo al stage, luego ejecutamos: 
+
+``` git commit -m "modificaciones" ```
+
+Y ya tendriamos nuestros dos archivos en nuestro timeline como muestra la siguiente imagen:
+
+![editar3][editar3]
+
+[editar3]: http://i67.tinypic.com/2mfdo2f.png
+
+En este momento tenemos 2 commits que hemos generado, pero ahora ¿cómo podemos ver esos commits? para esto vamos a hacer uso del comando: 
+
+``` git log ```
+
+Nos mostrará la siguiente imagen:
+
+![editar4][editar4]
+
+[editar4]: http://i64.tinypic.com/23shmbk.png
+
+Ahí nos muestra cada uno de los **commits** que hayamos hecho, quién los hizo, cuando y de que consta el **commit**, si se trabajaría en proyectos de gran magnitud los comentarios son de gran ayuda, ya que nos diran de que consta el **commit** en ese punto. Así que traten de ser los más claros y descriptivos cuando hagan sus **commits**.
+
