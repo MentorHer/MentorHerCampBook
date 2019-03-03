@@ -1,26 +1,26 @@
 # Graficando con Python
-Entre las librerias mas populares de Python tenemos a:
+Entre las librerías mas populares de Python tenemos a:
 
 ###Matplotlib###
-Nos permite graficar desde histogramas hasta graficas lineales y mapas de calor. Tiene un soporte completo a graficas 2D y un soporte limitado a graficas 3D. 
+Nos permite gráficar desde histogramas hasta gráficas lineales y mapas de calor. Tiene un soporte completo a gráficas 2D y un soporte limitado a gráficas 3D.
 
 ###Seaborn###
-Esta libreria nos permite crear graficas estadisticas atractivas e informativas.  Esta basado en matplotlib. Su objetivo es hacer de las visualizaciones un parte central de la exploracion de datos y nos permite crear visualizaciones mas complejas.
+Esta librería nos permite crear gráficas estadisticas atractivas e informativas.  Esta basado en matplotlib. Su objetivo es hacer de las visualizaciones un parte central de la exploracion de datos y nos permite crear visualizaciones mas complejas.
 
-Lo primero que tenemos que hacer es importar alguna de las librerias:
+Lo primero que tenemos que hacer es importar alguna de las librerías:
 
 <img src="https://farm5.staticflickr.com/4867/31878128527_0250445bbc_b.jpg" style="width: 75%; height: 75%">
 
-El primer tipo de grafica que veremos sera:
+El primer tipo de gráfica que veremos sera:
 
-###Graficas Lineales###
+###Gráficas Lineales###
 
-Generalmente se usa para presentar observaciones recolectadas en intervalos regulares. En el eje x se representa el intervalo regular, como el tiempo. En el eje y mostramos las observaciones, ordenadas por el eje x y conectadas por una linea.
+Generalmente se usa para presentar observaciones recolectadas en intervalos regulares. En el eje x se representa el intérvalo regular, como el tiempo. En el eje y mostramos las observaciones, ordenadas por el eje x y conectadas por una linea.
 
 <img src="https://farm8.staticflickr.com/7810/31878167537_3d3f52c009_b.jpg" style="width: 80%; height: 80%">
 
-Esta linea se crea llamando a la funcion ```plot()``` que recibe dos parametros: Los datos para el eje x que contiene los intervalos regulares y las observaciones para el eje y. 
-Este tipo de graficos son bastante utiles para presentar series de tiempo y secuencias de datos donde hay una orden entre las observaciones. 
+Esta línea se crea llamando a la funcion ```plot()``` que recibe dos parametros: Los datos para el eje x que contiene los intervalos regulares y las observaciones para el eje y.
+Este tipo de graficos son bastante utiles para presentar series de tiempo y secuencias de datos donde hay una orden entre las observaciones.
 
 Al ejecutar el ejemplo se crea un diagrama de líneas que muestra el patrón de onda sinusoidal en el eje y a lo largo del eje x con un intervalo constante entre las observaciones.
 
@@ -30,7 +30,7 @@ El mismo ejemplo se ve de este modo usando Seaborn. Es importante recalcar que n
 
 ###Bar Chart###
 
-Este grafico generalmente se usa para presentar cantidades relativas para categorias multiples.
+Este gráfico generalmente se usa para presentar cantidades relativas para categorias multiples.
 
 El eje x representa las categorías y están espaciadas uniformemente. El eje y representa la cantidad para cada categoría y se dibuja como una barra desde la línea de base hasta el nivel apropiado en el eje y.
 
@@ -38,7 +38,7 @@ Se puede crear un gráfico de barras llamando a la función ```bar()``` y pasand
 
 <img src="https://farm8.staticflickr.com/7853/46844934851_bc61e9b1c8_b.jpg" style="width: 80%; height: 80%">
 
-Un grafico de barras puede ser util para comparar multiples cantidades de puntos o estimaciones.
+Un gráfico de barras puede ser util para comparar multiples cantidades de puntos o estimaciones.
 
 En el ejemplo anterior se crea un set de datos con tres categorias, cada una definida con una etiqueta. Se dibuja un único valor entero aleatorio para la cantidad en cada categoría.
 
@@ -50,9 +50,9 @@ En Seaborn este ejemplo se ve de este modo, en este caso no usamos matplotlib, s
 
 Un histograma generalmente se use para resumir la distribucion de una muestra de datos.
 
-El eje x representa intervalos discretos o intervalos para las observaciones. Por ejemplo, las observaciones con valores entre 1 y 10 se pueden dividir en cinco barras, los valores [1,2] se asignarán a la primera barra, [3,4] se asignarán a la segunda barra, y así sucesivamente.
+El eje x representa intérvalos discretos o intervalos para las observaciones. Por ejemplo, las observaciones con valores entre 1 y 10 se pueden dividir en cinco barras, los valores [1,2] se asignarán a la primera barra, [3,4] se asignarán a la segunda barra, y así sucesivamente.
 
-El eje y representa la frecuencia o el recuento del número de observaciones en el conjunto de datos que pertenecen a cada barra.
+El eje y representá la frecuencia o el recuento del número de observaciones en el conjunto de datos que pertenecen a cada barra.
 
 Esencialmente, una muestra de datos se transforma en un gráfico de barras donde cada categoría en el eje x representa un intervalo de valores de observación.
 
@@ -108,6 +108,6 @@ En Seaborn este ejemplo con un grafico de dispersion se ve de este modo, en este
 
 ###Recursos Adicionales###
 
-Este [post](https://code.likeagirl.io/an%C3%A1lisis-y-visualizaci%C3%B3n-de-datos-con-pandas-matplotlib-85ee4d7b4cad) encontraras un ejemplo completo de visualizacion con matplotlib. Te animas a crear tu propia version usando Seaborn? 
+Este [post](https://code.likeagirl.io/an%C3%A1lisis-y-visualizaci%C3%B3n-de-datos-con-pandas-matplotlib-85ee4d7b4cad) encontraras un ejemplo completo de visualizacion con matplotlib. Te animas a crear tu propia version usando Seaborn?
 
 Si te interesa explorar otros lenguajes de programacion, este [sitio](https://bbc.github.io/rcookbook/#how_to_create_bbc_style_graphics) de la BBC te muestra como realizan sus visualizaciones usando R.

@@ -21,7 +21,6 @@ Existen dos formas de instalar Jupyter Notebook en tu computadora, por línea de
 
 Abre la terminal para los comandos y escribe:
 
->
 
     python3 -m pip install --upgrade pip
 
