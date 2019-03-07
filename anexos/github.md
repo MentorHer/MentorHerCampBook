@@ -199,7 +199,7 @@ Nos mostrará la siguiente imagen:
 
 [editar2]: http://i66.tinypic.com/sfxr9u.png
 
-Como pueden ver en la imagen estan los últimos comandos utilizados y al ejecutar **git status** nos muestra que hemos modificado el archivo **README.txt** y que no estamos haciendo seguimiento al archivo mentorher que creamos con el comando **touch mentorher** ya que es nuevo.
+Como pueden ver en la imagen estan los últimos comandos utilizados y al ejecutar **git status** nos muestra que hemos modificado el archivo **README.txt** y que no estamos haciendo seguimiento al archivo **mentorher** que creamos con el comando **touch mentorher** ya que es nuevo.
 
 Para añadirlos al stage podemos ejecutar:
 
@@ -230,4 +230,21 @@ Nos mostrará la siguiente imagen:
 [editar4]: http://i64.tinypic.com/23shmbk.png
 
 Ahí nos muestra cada uno de los **commits** que hayamos hecho, quién los hizo, cuando y de que consta el **commit**, si se trabajaría en proyectos de gran magnitud los comentarios son de gran ayuda, ya que nos diran de que consta el **commit** en ese punto. Así que traten de ser los más claros y descriptivos cuando hagan sus **commits**.
+
+Ahora quiero enseñarles como **corregir** o **modificar** un **commit**, pero antes de hacerlo quiero aclarar que esto solo es recomendable hacer si es que lo que queremos **corregir** o **modificar** esta justo en el **commit anterior** y no así si ya se hicieron varios **commits** y recien se dan cuenta de un **error** en un **commit** que hicieron por ejemplo hace unos tres **commits** atras, en ese caso es mejor corregirlo y hacer un **nuevo commit**.
+
+Aclarado esto vamos empezar, como se muestra en esta última imagen vemos 2 commits, supongamos que queremos corregir algo de nuestro último commit que es el de **modificaciones**, lo que vamos a hacer es copiar todo el codigo que esta despues de la palabra **commit**, en este caso es **"c97fa.....e166"**
+
+Y luego vamos a ir a la consola y ejecutar el siguiente comando, este comando es el **reset** pero tiene dos formas por asi decirlo de usar uno es el **soft** en este caso nos va a devolver al commit que estamos diciendo pero a la vez nos devolvera los cambios que realizamos y los dejara en el área de stage y el otro es el **hard** que te devuelve al commit que le estamos diciendo que nos lleve pero a la vez va a eliminar todos los cambios que se realizaron, es decir nos llevara al commit pero no tendra ningún cambio a partir de ahi. En este ejemplo vamos a utilizar el comando **soft** como esta a continuacion:
+
+```git reset --soft c97fa12a066e91b60984e3c947b848a0fba3e166```
+
+Ahora podremos modificar y realizar los cambios que necesitemos y cuando vayamos a hacer commit utilizaremos un nuevo comando para que el commit se haga al ultimo commit que hicimos y podemos usar el siguiente comando:
+
+``` git commit --amend -m "Comentario"```
+
+Con esto los cambios se guardaran en el último **commit** con el comentario que le demos. Y así podemos modificar o cambiar algun commit pero como dije solo si es el inmediato anterior.
+
+Hasta aquí lo unico que hicimos es hacer repositorios de manera local, ahora les enseñare a hacer un repositorio remoto con la ayuda de **github**, lo primero que haremos es crearnos una cuenta en: [Github](https://github.com).
+
 
