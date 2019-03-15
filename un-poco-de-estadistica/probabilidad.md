@@ -53,6 +53,17 @@ Entonces:
 
 P(E) = 0.077  o 7,69 % de encontrar alguna carta con número 9.
 
+### 2.2 EVENTOS COMPUESTOS
+Se llaman *Eventos Compuestos* a aquellos que contienen a dos o más *Eventos*. Conceptualmente un *Evento* es un subconjunto, por lo tanto los *Eventos* poseen todas la propiedades de los conjuntos.
+**Recomendación** *Revisar teoría de conjuntos para esta sección. UNION, INTERSECCION Y NEGACION*
+Ejemplos.
+En una encuesta a 100 lectores, 50 leen el periódico LA RAZON (R), 45 leen LA PRENSA (P), 10 leen ambas. Calcular:
+a)	Cuántos leen solo LA RAZON.
+b)	Cuántos leen LA RAZON o LA PRENSA.
+c)	Cuántos no leen ni LA RAZON ni LA PRENSA.
+El mejor modo de realizar este tipo de ejercicios de conjuntos es usando los diagramas de Venn.
+(FIGURA 1)
+En el primer diagrama se anotan los datos, con respecto al número de personas que leen cierto tipo de periódico, y en la intersección de ambos se coloca el número de personas que leen ambos periódicos, aunque no se sabe con exactitud el número. 
 
 
 	
