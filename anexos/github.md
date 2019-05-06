@@ -247,4 +247,48 @@ Con esto los cambios se guardaran en el último **commit** con el comentario que
 
 Hasta aquí lo unico que hicimos es hacer repositorios de manera local, ahora les enseñare a hacer un repositorio remoto con la ayuda de **github**, lo primero que haremos es crearnos una cuenta en: [Github](https://github.com).
 
+Siguen los pasos para crearse una cuenta en GitHub tienen que verificar el correo electrónico con el que crearon la cuenta y luego inician sesión, cuando inicien sesión les tendria que aparecer una ventana como la siguiente: 
+
+![github][github]
+
+[github]: http://i67.tinypic.com/xmk51z.png
+
+Como pueden ver en la imagen en el lado izquierdo estan todos los proyectos que en este caso mi cuenta esta realizando el control de versiones.
+
+Ahora para enlazar lo que anteriormente les enseñe que era git para ahora eso subirlo a github lo primero que tenemos que hacer es crear un nuevo repositorio es decir vamos a hacer click en el boton verde que dice **New** o si lo tienen en español dira **Nuevo** y les mostrará una imagen como la siguiente:
+
+![mentor][mentor]
+
+[mentor]: http://i67.tinypic.com/2rwxk6w.png
+
+Como pueden ver en la imagen les pide un nombre para su repositorio en este ejemplo estoy colocando como nombre **MentorHer** y también se puede elegir entre un repositorio **público**, es decir que todos van a poder ver el repositorio y todos los commits del mismo o también elegir **privado** que solo el dueño del repositorio y los que él quiera podrán ver el repositorio, en este ejemplo dejaremos como **público** y damos click en **Crear repositorio** nos mostraría una imagen como la siguiente:
+
+![mentor1][mentor1]
+
+[mentor1]: http://i68.tinypic.com/2nvqt0x.png
+
+Ahora ¿se acuerdan cuando hicimos **git init**? cuando hagamos eso en un directorio es decir en un proyecto  para estar usando **git** y ese mismo poder enlazar con **github** tenemos que usar los codigos que nos muestra en la anterior imagen que son: 
+
+```git remote add origin https://github.com/elchapako/MentorHer.git```
+
+```git push -u origin master ```
+
+En este momento ya tendriamos configurado nuestro proyecto para hacer commits a **github**
+
+¿Y como hacemos el commit a **github**?
+
+Pues muy facil, se acuerdan que llegamos hasta hacer:
+
+``` git commit -m "modificaciones" ```
+
+Este es un ejemplo de hasta donde llegamos, es decir hacemos commit y ya habiamos creado un repositorio en **git** para ese mismo repositorio tenerlo en **github** solo se tiene que hacer el siguiente paso:
+
+``` git push origin master ```
+
+Y listo ya subieron ese repositorio a **github** al repositorio que hemos creado para este ejemplo es **MentorHer**.
+
+Así con esto terminamos con lo básico que necesitan saber de **git** y **github**.
+
+
+   
 
